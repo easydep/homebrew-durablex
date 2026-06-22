@@ -4,22 +4,22 @@ cask "durablex" do
 
   on_macos do
     on_intel do
-      sha256 "17869ea4873772b66c7d5e0ec1918a08471b8ebc6615dc78ffb0bce9928b1679"
+      sha256 "677e8f0a3b23eea8ea4e8e63f0909347d546ad294e64eef4437ba714657526a3"
       url "https://github.com/easydep/durablex/releases/download/v#{version}/durablex_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "3f104f6f7dca9b52e3157f7ccf06e083cb961ea1b2c88bd05aa609fdc4b2ffd5"
+      sha256 "1f7d1e05a1e5c3ab7ebefd21ae3b20c84919088ab6cac2d1e3d58ba43fc088c5"
       url "https://github.com/easydep/durablex/releases/download/v#{version}/durablex_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "8a04201a8a0e4d7d359792b56bff4771becb6e6db15c80ac1bf7f06b42645db1"
+      sha256 "08f213dba18afe45b0ac21a763ae111cc4b7fabbfba94aab37132f608ee36417"
       url "https://github.com/easydep/durablex/releases/download/v#{version}/durablex_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "cc0aa1d3a9e65ab17beac188681b1807f2e705b65c9a3892e298060f7fecc290"
+      sha256 "a830d9d67da331c0cc1eab26fd325478445acb56eb82a9bf43e236f107a58827"
       url "https://github.com/easydep/durablex/releases/download/v#{version}/durablex_#{version}_linux_arm64.tar.gz"
     end
   end
